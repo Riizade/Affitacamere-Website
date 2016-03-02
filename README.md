@@ -10,6 +10,5 @@ Todo
 Language Specification
 ------
 The language is selected via the language drop-down box.
-Strings are stored in strings.html and named using their id attributes in the format id="string-[identifier]"
-The classes of strings in strings.html represent the language the strings are written in, identified by their two-letter language code
-Strings in strings.html will be placed into attributes that share their id, using the language specified by the URL of the page
+Strings in strings.html have two classes. One class is the language the string is written in, identified by its two-letter language code. The other class is the string identifier, in the format "string-[name]"
+Strings in strings.html will be placed into attributes that share their identifier class, according to the language specified by the URL of the page
