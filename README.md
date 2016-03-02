@@ -17,5 +17,5 @@ Strings in strings.html will be placed into attributes that share their identifi
 Todo
 ------
 - Source actual images
-- Use Handlebars.js, Mustache.js, or Dust.js client-side templating engine
+- Use Handlebars.js, Mustache.js, or Dust.js client-side templating engine. Look into jsRender.
 - Look into using the templating engine to handle language switching.
