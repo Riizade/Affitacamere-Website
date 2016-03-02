@@ -4,6 +4,7 @@ function getCurrentLanguage() {
 }
 
 $('document').ready(function(){ // on page load
+  $("body").scrollspy({ target: '#navbar'});
   var language = getCurrentLanguage(); // get the current language from the URL
   $("#hidden").load("../assets/strings.html", function() { // load strings.html into the hidden attribute
     $(".has-string").each(function(index) { // for each string class element with the current language as one of its other classes
