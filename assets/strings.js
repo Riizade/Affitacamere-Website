@@ -34,7 +34,3 @@ var strings = {
     "it": "Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano."
   }
 };
-
-$('document').ready(function(){ // on page load
-  console.log(strings);
-});

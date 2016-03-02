@@ -13,12 +13,13 @@ $('document').ready(function(){ // on page load
       for (i = 0; i < classes.length; i++) { // for each of the element's classes
         if (/^string-/.test(classes[i])) { // if the class begins with string-
           var text = ($(this).html());
-          console.log(text);
           text = text.replace("     ", strings[classes[i]][language]); // create a string where STRING is replaced with the correct translated text
-          console.log(text);
           $(this).html(text); // update the text in the DOM using the string that was created
         }
       }
     })
+  });
+  $('[data-spy="scroll"]').each(function () {
+    var $spy = $(this).scrollspy('refresh')
   });
 });
